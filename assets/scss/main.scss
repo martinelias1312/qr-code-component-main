@@ -30,7 +30,6 @@ main {
     background: $color-card-bg;
     max-width: 21em;
     border-radius: 20px;
-    text-align: center;
 
     div {
         padding: 0.5em;
@@ -43,11 +42,21 @@ img {
     border-radius: 10px;
 }
 
+.text-wrap {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 90%;   
+}
+
 h1 {
     color: $color-heading;
     font-size: 1.5em;
+    line-height: 1.3em; 
 }
 
 p {
     color: $color-text;
+    line-height: 1.2em;
 }
+
+// Footer

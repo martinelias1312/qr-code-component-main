@@ -31,7 +31,6 @@ main {
   background: white;
   max-width: 21em;
   border-radius: 20px;
-  text-align: center;
 }
 
 main div {
@@ -43,12 +42,20 @@ img {
   border-radius: 10px;
 }
 
+.text-wrap {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
 h1 {
   color: #1f3251;
   font-size: 1.5em;
+  line-height: 1.3em;
 }
 
 p {
   color: #7b879d;
+  line-height: 1.2em;
 }
 /*# sourceMappingURL=main.css.map */
