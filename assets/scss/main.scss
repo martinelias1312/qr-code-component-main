@@ -30,10 +30,14 @@ main {
     background: $color-card-bg;
     max-width: 21em;
     border-radius: 20px;
-    
+
     div {
-        padding: 1em;
+        padding: 0.5em;
     }
 }
 
 // Card content
+img {
+    width: 100%;
+    border-radius: 10px;
+}

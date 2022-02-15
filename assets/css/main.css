@@ -34,6 +34,11 @@ main {
 }
 
 main div {
-  padding: 1em;
+  padding: 0.5em;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */
