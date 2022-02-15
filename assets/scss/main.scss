@@ -21,3 +21,9 @@ body {
     justify-content: center;
     height: 100vh;
 }
+
+main {
+    background: $color-card-bg;
+    max-width: 21em;
+    border-radius: 20px;
+}

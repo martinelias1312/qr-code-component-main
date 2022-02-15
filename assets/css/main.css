@@ -25,4 +25,10 @@ body {
           justify-content: center;
   height: 100vh;
 }
+
+main {
+  background: white;
+  max-width: 21em;
+  border-radius: 20px;
+}
 /*# sourceMappingURL=main.css.map */
