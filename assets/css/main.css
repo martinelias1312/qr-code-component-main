@@ -24,11 +24,16 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
+  font-family: "Outfit", sans-serif;
 }
 
 main {
   background: white;
   max-width: 21em;
   border-radius: 20px;
+}
+
+main div {
+  padding: 1em;
 }
 /*# sourceMappingURL=main.css.map */

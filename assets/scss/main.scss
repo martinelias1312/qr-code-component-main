@@ -1,3 +1,4 @@
+// Variables
 $color-text: hsl(220, 15%, 55%);
 $color-heading: hsl(218, 44%, 22%);
 $color-card-bg: hsl(0, 0%, 100%);
@@ -5,6 +6,7 @@ $color-body-bg: hsl(212, 45%, 89%);
 $font-size-p: 15px;
 $font-main: 'Outfit', sans-serif;
 
+// General settings
 html {
     box-sizing: border-box;
 }
@@ -20,10 +22,18 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    font-family: $font-main;
 }
 
+// Card
 main {
     background: $color-card-bg;
     max-width: 21em;
     border-radius: 20px;
+    
+    div {
+        padding: 1em;
+    }
 }
+
+// Card content
