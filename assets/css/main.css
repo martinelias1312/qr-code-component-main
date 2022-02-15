@@ -31,6 +31,7 @@ main {
   background: white;
   max-width: 21em;
   border-radius: 20px;
+  text-align: center;
 }
 
 main div {
@@ -40,5 +41,13 @@ main div {
 img {
   width: 100%;
   border-radius: 10px;
+}
+
+h1 {
+  color: #1f3251;
+}
+
+p {
+  color: #7b879d;
 }
 /*# sourceMappingURL=main.css.map */
