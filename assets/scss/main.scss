@@ -1,6 +1,23 @@
-$color-body-bg: hsl(220, 15%, 55%);
+$color-text: hsl(220, 15%, 55%);
 $color-heading: hsl(218, 44%, 22%);
 $color-card-bg: hsl(0, 0%, 100%);
-$color-text: hsl(212, 45%, 89%);
+$color-body-bg: hsl(212, 45%, 89%);
 $font-size-p: 15px;
 $font-main: 'Outfit', sans-serif;
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: $color-body-bg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
